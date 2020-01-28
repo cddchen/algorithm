@@ -18,9 +18,9 @@ int main()
 {
 	//fopen("1.out", "w", stdout);
 	srand((int)time(0));
-	printf("输入运算符范围，例如1 4表示将出现加减号个数在【1，4】之内\n");
+	printf("输入每个题目的最少运算符数量和最多运算符数量:\n");
 	scanf("%d%d", &min_op, &max_op);
-	printf("输入运算结果范围，例如20表示单chcp 65001个数字和运算结果将在【1，20)当中\n");
+	printf("输入运算结果范围\n");
 	scanf("%d", &num);
 	printf("输入题目数量\n");
 	scanf("%d", &question_cnt);
