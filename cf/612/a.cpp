@@ -30,7 +30,7 @@ int main()
 			cnt = random(min_op, max_op);
 			memset(x, 0, sizeof(x));
 			memset(y, 0, sizeof(y));
-			x[0] = random(1, num - 1);
+			x[0] = random(1, num  - 1);
 			for (int j = 0; j < cnt; ++j) {
 				int opt = random(0, 1);
 				if (opt)
